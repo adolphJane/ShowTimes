@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/landing_background">
+
+    <ImageView
+        android:id="@+id/img_splash"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        android:src="@drawable/ic_action_focus_white_no_margin"
+        android:layout_centerInParent="true"/>
+
+    <com.magicalrice.showtimes.view.customview.CustomTextView
+        android:id="@+id/tv_splash_english"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="ShowTimes"
+        android:layout_below="@id/img_splash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/tv_splash_english"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="开眼"/>
+    
+    <com.magicalrice.showtimes.view.customview.CustomTextView
+        android:id="@+id/tv_splash_english_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily appetizers for your eyes，Bon eyepetit"
+        android:textColor="@color/white"
+        android:layout_above="@+id/tv_splash_bottom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_splash_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日精选视频推介，让你大开眼界。"
+        android:layout_marginBottom="46dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+</RelativeLayout>
